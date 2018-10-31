@@ -1,0 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+html {
+    font-family: 'Museo';
+    margin: 1.25em 1.875em 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}

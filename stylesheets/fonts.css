@@ -1,0 +1,39 @@
+/* BLANCH */
+
+@font-face {
+    font-family: Blanch;
+    src: url('../assets/fonts/blanch/BLANCH_CONDENSED.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Blanch;
+    src: url('../assets/fonts/blanch/BLANCH_CONDENSED_LIGHT.ttf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Blanch;
+    src: url('../assets/fonts/blanch/BLANCH_CONDENSED_INLINE.ttf');
+    font-weight: bold;
+}
+
+/* MUSEO */
+
+@font-face {
+    font-family: Museo;
+    src: url('../assets/fonts/museo/museo-300-webfont.woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Museo;
+    src: url('../assets/fonts/museo/museo-500-webfont.woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Museo;
+    src: url('../assets/fonts/museo/museo-700-webfont.woff');
+    font-weight: 700;
+}
