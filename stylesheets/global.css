@@ -1,18 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* TYPOGRAPHY */
-html {
-    font-family: 'Museo';
-    margin: 1.25em 1.875em 0;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: lighter;
+body {
+    background: url('/assets/textures/fabric_plaid.png');
+    margin: 0.9375em 1.875em 0; /* 0.9375em = 15px */
 }

@@ -1,0 +1,28 @@
+/* TYPOGRAPHY */
+html {
+    font-family: 'Museo';
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #6F6F6F;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+/* Utility Classes */
+
+.tag-line{
+    color: #525252;
+    text-align: center;
+}

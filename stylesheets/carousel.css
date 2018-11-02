@@ -1,0 +1,41 @@
+.carousel {
+    height: 270px;
+    background: #999;
+    border: 7px solid #fff;
+    background-image: url('https://images.unsplash.com/photo-1540980230057-16580b25b3a3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb7c7415cf48fa184ddd5496046da83d&auto=format&fit=crop&w=2106&q=80');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 1.75em;
+}
+
+.carousel .arrow-prev img,
+.carousel .arrow-next img {
+    height: 2.3125em;
+    width: 2.3125em;
+}
+
+.carousel .arrow-prev,
+.carousel .arrow-next {
+    position: absolute;
+    top: 108px;
+}
+
+.carousel .arrow-prev {
+    left: -18px;
+}
+
+.carousel .arrow-next {
+    right: -18px;
+}
+
+.carousel .caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+    padding: 0.75em 1.25em;
+    width: 100%;
+    text-align: right;
+    font-size: 0.875em;
+}
