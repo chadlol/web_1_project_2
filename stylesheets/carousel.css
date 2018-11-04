@@ -18,7 +18,7 @@ header .arrow-next img {
 header .arrow-prev,
 header .arrow-next {
     position: absolute;
-    top: 108px;
+    top: 45%;
 }
 
 header .arrow-prev {
@@ -38,4 +38,15 @@ header .caption {
     width: 100%;
     text-align: right;
     font-size: 0.875em;
+}
+
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 50vh;
+    }
+
+    header .caption {
+        font-size: 1.125em;
+    }
 }

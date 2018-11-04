@@ -1,4 +1,4 @@
-.footer-main {
+footer .footer-main {
     background-image: url('/assets/textures/az_subtle.png');
     background-blend-mode: multiply;
     background-color: #B7B7AF;
@@ -7,60 +7,60 @@
     justify-content: space-between;
 }
 
-.footer-news {
+footer .footer-news {
     padding: 1em 0;
     background-color: #666;
     text-align: center;
 }
 
-.footer-news a {
+footer .footer-news a {
     color: #FFF;
     vertical-align: middle;
     text-transform: none;
 }
 
-.footer-news a:hover {
+footer .footer-news a:hover {
     color: #000;
 }
 
-.footer-news span {
+footer .footer-news span {
     font-size: 0.625em;
 }
 
-.footer-news img {
+footer .footer-news img {
     padding: 0 0.625em;
     height: 1em;
     vertical-align: middle;
 }
 
-.footer-main {
+footer .footer-main {
 
 }
 
-.footer-main > section {
+footer .footer-main > section {
     width: 45%;
 }
 
-.footer-nav {
+footer .footer-nav {
     display: flex;
     align-items: center;
     font-size: 0.8125em;
     margin-bottom: 1em;
 }
 
-.footer-nav img {
+footer .footer-nav img {
     width: 4.75em;
 }
 
-.footer-main section:first-child h5 {
+footer .footer-main section:first-child h5 {
     margin-bottom: 0.8125em;
 }
 
-.footer-main section:first-child p {
+footer .footer-main section:first-child p {
     margin-bottom: 0.75em;
 }
 
-.footer-main input {
+footer .footer-main input {
     height: 1.8125em;
     font-size: 1.0625em;
     font-family: 'Museo';
@@ -68,48 +68,69 @@
     width: 100%;
 }
 
-.footer-main input::placeholder {
+footer .footer-main input::placeholder {
     opacity: 0.75;
 }
 
-.footer-main .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;   
+footer .nav-items > * {
+    margin-left: 1.25em;
 }
 
-.footer-main p {
+
+footer .footer-main p {
     color: white;
     font-size: 0.8125em;
 }
 
-.footer-info {
+footer .footer-info {
     margin-top: 0.75em;
 }
 
-.footer-info h5 {
+footer .footer-info h5 {
     margin-bottom: 0.75em;
 }
 
-.footer-info p {
+footer .footer-info p {
     line-height: 1.5em;
     margin-bottom: 0.625em;
 }
 
-.footer-info a {
+footer .footer-info a {
     color: #363636;
+    font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
 
 .footer-gallery {
     display: none;
+    margin-top: 0.75em;
+}
+
+.footer-gallery h5{
+    margin-bottom: 0.75em;
+}
+
+.footer-gallery div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-gallery div a {
+    display: inline-block;
+    width: 22%;  
+    margin: 0.15em 0.5%;
+}
+
+.footer-gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .footer-gallery {
+        display: block;
+    }
+
+    footer .footer-main > section {
+        width: 31%;
+    }
 }
