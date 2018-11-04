@@ -1,5 +1,5 @@
-.carousel {
-    height: 270px;
+header {
+    height: 40vh;
     background: #999;
     border: 7px solid #fff;
     background-image: url('https://images.unsplash.com/photo-1540980230057-16580b25b3a3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb7c7415cf48fa184ddd5496046da83d&auto=format&fit=crop&w=2106&q=80');
@@ -9,27 +9,27 @@
     margin-bottom: 1.75em;
 }
 
-.carousel .arrow-prev img,
-.carousel .arrow-next img {
+header .arrow-prev img,
+header .arrow-next img {
     height: 2.3125em;
     width: 2.3125em;
 }
 
-.carousel .arrow-prev,
-.carousel .arrow-next {
+header .arrow-prev,
+header .arrow-next {
     position: absolute;
     top: 108px;
 }
 
-.carousel .arrow-prev {
+header .arrow-prev {
     left: -18px;
 }
 
-.carousel .arrow-next {
+header .arrow-next {
     right: -18px;
 }
 
-.carousel .caption {
+header .caption {
     position: absolute;
     bottom: 0;
     background: rgba(0,0,0, 0.5);

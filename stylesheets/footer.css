@@ -1,0 +1,115 @@
+.footer-main {
+    background-image: url('/assets/textures/az_subtle.png');
+    background-blend-mode: multiply;
+    background-color: #B7B7AF;
+    padding: 2.125em 2.125em 2.9375em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-news {
+    padding: 1em 0;
+    background-color: #666;
+    text-align: center;
+}
+
+.footer-news a {
+    color: #FFF;
+    vertical-align: middle;
+    text-transform: none;
+}
+
+.footer-news a:hover {
+    color: #000;
+}
+
+.footer-news span {
+    font-size: 0.625em;
+}
+
+.footer-news img {
+    padding: 0 0.625em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+.footer-main {
+
+}
+
+.footer-main > section {
+    width: 45%;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    font-size: 0.8125em;
+    margin-bottom: 1em;
+}
+
+.footer-nav img {
+    width: 4.75em;
+}
+
+.footer-main section:first-child h5 {
+    margin-bottom: 0.8125em;
+}
+
+.footer-main section:first-child p {
+    margin-bottom: 0.75em;
+}
+
+.footer-main input {
+    height: 1.8125em;
+    font-size: 1.0625em;
+    font-family: 'Museo';
+    padding: 0 0.5em;
+    width: 100%;
+}
+
+.footer-main input::placeholder {
+    opacity: 0.75;
+}
+
+.footer-main .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.footer-main p {
+    color: white;
+    font-size: 0.8125em;
+}
+
+.footer-info {
+    margin-top: 0.75em;
+}
+
+.footer-info h5 {
+    margin-bottom: 0.75em;
+}
+
+.footer-info p {
+    line-height: 1.5em;
+    margin-bottom: 0.625em;
+}
+
+.footer-info a {
+    color: #363636;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-gallery {
+    display: none;
+}

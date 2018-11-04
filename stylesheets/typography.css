@@ -18,11 +18,14 @@ a:hover {
 
 h5 {
     font-size: 1em;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
 }
 
-/* Utility Classes */
-
 .tag-line{
-    color: #525252;
+    text-transform: none;
     text-align: center;
+    margin-bottom: 2.8125em;
+    color: #525252;
 }
