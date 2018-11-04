@@ -7,6 +7,9 @@
 @import "gallery.css";
 @import "footer.css";
 
+@import "student-detail/student-detail.css";
+@import "student-detail/student-gallery.css";
+
 
 
 * {

@@ -1,0 +1,133 @@
+.student {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-profile {
+    display: flex;
+    text-align: left;
+    padding: 0.5em;
+    background: #FFF;
+    color: #656565;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.student-portrait {
+    width: 92px;
+    height: 100px;
+    margin-right: 0.5em;
+}
+
+.student-portrait img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.student-info h6 {
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.student-info a {
+    text-transform: none;
+    font-size: 0.6875em;
+    display: block;
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.student-social a{
+    height: 1.375em;
+    width: 1.375em;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.student-social img {
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+}
+
+.student-bio {
+    background: #FFF;
+    /* margin: 1em 0 1em 1em; */
+    padding: 1em;
+}
+
+.student-bio h5 {
+    font-size: 1.0625em;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.student-bio p {
+    line-height: 1.5;
+    padding-bottom: 1em;
+}
+
+.student-portfolio {
+    margin-bottom: 2em;
+}
+
+.student-portfolio div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.student-portfolio h3 {
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.student-portfolio a {
+    width: 100%;
+    margin: 0.5em 1%;
+    display: inline-block;
+    height: 15em;
+}
+
+.student-portfolio a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+    .student {
+        flex-direction: row-reverse;
+    }
+
+    .student-profile {
+        margin-bottom: 1em;
+        flex-direction: row;
+        text-align: right;
+    }
+
+    .student-portrait {
+        margin-left: 0.5em;
+    }
+
+    .student-profile,
+    .student-bio {
+        margin-left: 1em;
+    }
+
+    .student > section:first-child {
+        width: 35%;
+    }
+
+    .student-portfolio a {
+        width: 23%;
+    }
+
+}
