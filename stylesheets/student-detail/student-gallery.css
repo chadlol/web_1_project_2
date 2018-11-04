@@ -3,7 +3,7 @@
     height: 40vh;
     background: #999;
     border: 7px solid #fff;
-    background-image: url('/assets/2.jpg');
+    background-image: url('../../assets/2.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
