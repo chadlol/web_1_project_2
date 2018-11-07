@@ -1,5 +1,5 @@
 footer .footer-main {
-    background-image: url('/assets/textures/az_subtle.png');
+    background-image: url('../assets/textures/az_subtle.png');
     background-blend-mode: multiply;
     background-color: #B7B7AF;
     padding: 2.125em 2.125em 2.9375em;
