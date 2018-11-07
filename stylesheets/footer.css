@@ -4,6 +4,7 @@ footer .footer-main {
     background-color: #B7B7AF;
     padding: 2.125em 2.125em 2.9375em;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     box-shadow: inset 0 10px 10px -7px #666;
 }
@@ -39,7 +40,8 @@ footer .footer-main {
 }
 
 footer .footer-main > section {
-    width: 45%;
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 footer .footer-nav {
@@ -67,6 +69,7 @@ footer .footer-main input {
     font-family: 'Museo';
     padding: 0 0.5em;
     width: 100%;
+    max-width: 350px;
 }
 
 footer .footer-main input::placeholder {
@@ -126,6 +129,18 @@ footer .footer-info a {
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (min-width: 768px) {
+    footer .footer-main {
+        flex-direction: row;
+    }
+
+    footer .footer-main > section {
+        width: 45%;
+        margin-bottom: 0;
+    }
+}
+
 
 @media screen and (min-width: 992px) {
     .footer-gallery {
